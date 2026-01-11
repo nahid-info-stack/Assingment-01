@@ -14,7 +14,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid  black;
 }
 .logo{
     height: 60px;
@@ -51,5 +50,54 @@
     color: #FFF;
     font-size:16px ;
     font-weight: 600;
-
+}
+.hero-container{
+    max-width: 1600px;
+    background-image: url(./assets/hero-bg.png);
+    padding: 115px 120px 179px;
+     margin: 0 auto; 
+}
+.hero-content{
+    max-width: 1360px;
+     width: 85%; 
+     margin: 0 auto; 
+    text-align: center;
+}
+.head button{
+    background: #FFF;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    border: none;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.head h1{
+    color: #469165;
+    font-size: 72px;
+    line-height: 84px;
+}
+.head h1 span{
+    color: #FFF;
+}
+.head p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.btn-container .btn-b{
+    background: transparent;
+    padding: 8px 12px;
+    color: #FFF;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 4px;
 }
