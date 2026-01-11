@@ -3,6 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: blue;
+.header-container{
+    max-width: 1600px;
+    padding: 16px 120px;
+}
+.navbar{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid  black;
+}
+.logo{
+    height: 60px;
+    width: 139px;
+    padding: 16px 0;
+    font-family: "Inter", sans-serif;
+}
+.logo img{
+     height: 36px; 
+} 
+.menu{
+   padding: 34px 0;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000; 
+    font-size: 16px;
+    font-weight: 500;
+}
+.button-content{
+    padding: 24px 0;
+}
+.btn{
+    padding: 12px 16px;
+    border: none;
+    background: #469165;
+    border-radius: 4px;
+    color: #FFF;
+    font-size:16px ;
+    font-weight: 600;
+
 }
