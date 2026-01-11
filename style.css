@@ -141,8 +141,6 @@
     text-align: center;
     height: 100%;
     flex-grow: 1;
-   
-
 }
 .card img{
     background-color:#F95555 ;
@@ -162,4 +160,53 @@
     line-height: 20px;
     color: #627382;
 
+}
+.brain-container{
+    max-width: 1600px;
+    padding: 120px;
+}
+.brain-content{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+.image{
+    border-radius: 12px;
+    max-height: 600;
+}
+.brain-text{
+    padding: 120px 0;
+}
+.brain-text .green{
+    font-size: 16px;
+    font-weight:500 ;
+    line-height:20px ;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-text h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-text .list{
+    list-style-image: url(./assets/CheckCircle.png);
+}
+.brain-text .list li{
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #001931;
 }
