@@ -20,7 +20,6 @@
     height: 60px;
     width: 139px;
     padding: 16px 0;
-    font-family: "Inter", sans-serif;
 }
 .logo img{
      height: 36px; 
@@ -252,4 +251,45 @@
     font-size: 16px;
     line-height: 24px;
     color: #627382;
+}
+.footer-container{
+    max-width: 1600px;
+    background-color: #001931;
+    padding: 120px 120px 30px;
+}
+.footer-content{
+  max-width: 1360px;  
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.foot-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:80px ;
+}
+.foot-nav .ft-logo img{
+    height: 36px;
+}
+.icons p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFF;
+    margin-bottom: 16px;
+
+}
+.icons .fa-brands {
+    color: #FFF;
+    margin-right: 16px;
+}
+.foot-copy{
+     padding-top: 30px;
+}
+.foot-copy p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+
 }
